@@ -1,0 +1,49 @@
+.bordered {
+    border: 1px solid black;
+    font-size: 59px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+#container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+div#strona 
+    {  
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+div#logo 
+    { 
+        height: 100px
+        width: 560px;
+        background-color: black; 
+        color: white; 
+        padding: 25px; 
+    } 
+
+.column {
+    margin: 10px;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div#stopka 
+    { 
+        background-color: black; 
+        color: white; 
+        text-align: center; 
+        padding: 20px; 
+    } 
