@@ -9,25 +9,23 @@
     text-align: center;
 }
 #container {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-div#strona 
-    {  
-        margin-left: auto; 
-        margin-right: auto; 
-    }
+div#strona {  
+    margin-left: auto; 
+    margin-right: auto; 
+}
 
-div#logo 
-    { 
-        height: 100px
-        width: 560px;
-        background-color: black; 
-        color: white; 
-        padding: 25px; 
-    } 
+div#logo { 
+    height: 100px
+    width: 560px;
+    background-color: black; 
+    color: white; 
+    padding: 25px; 
+} 
 
 .column {
     margin: 10px;
@@ -40,10 +38,9 @@ div#logo
     justify-content: space-between;
 }
 
-div#stopka 
-    { 
-        background-color: black; 
-        color: white; 
-        text-align: center; 
-        padding: 20px; 
-    } 
+div#stopka { 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+ } 
