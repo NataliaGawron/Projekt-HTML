@@ -20,9 +20,9 @@ div#strona {
     margin-right: auto; 
 }
 
-div#logo { 
-    height: 100px
-    width: 560px;
+#logo { 
+    height: 100px;
+    width: 1280px;
     background-color: black; 
     color: white; 
     padding: 25px; 
@@ -39,7 +39,7 @@ div#logo {
     justify-content: space-between;
 }
 
-div#stopka { 
+#stopka { 
     background-color: black; 
     color: white; 
     text-align: center; 
