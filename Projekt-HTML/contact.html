@@ -1,34 +1,51 @@
 ﻿ <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Lobster|Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Sealcode Zajecia HTML</title>
+    <title>Strona poświęcona miłośnikom muzyki i gry na gitarze  &#9829</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body> 
     <header>
-        <h1 id="logo"> &#9829 Kontakt &#9829 </h1>
-        <nav>
+        <h1 class="FontStyle" id="logo"> &#9829 Kontakt &#9829 </h1>
+         <nav class="center-text; FontStyle">
             <a class="nav_item" href="index.html">Powrót do strony głównej</a>
         </nav>
     </header>
     <main>
     
         <div id="strona">
-            <div id="container">                  
-                <span class="column column1">   
+            <div class="container">                  
+                <span class="column column1"; style="border: 3px solid rgba(0, 0, 0, 0.8)">   
                     <article style="white-space: pre-line">
-                    E-mail: MusicWorld@music.pl
-                    Poznan ul. Muzyczna 15/5
+                        <img src="naklejka.jpg" alt="naklejka" align="right"/>
+                        Jeśli chciałbyś się skontaktować, napisz pod poniższy <br />
+                        adres e-mail: MusicWorld@music.pl
                     </article>
+                    <form action="mailto:adres@pocztowy.pl" method="post" enctype="text/plain">
+                            <fieldset style="display: flex">
+                            <legend>Kontakt:</legend>
+
+                            <label>Twój nick: 
+                            <input type="text" name="name" /></label> <br />
+
+                            <label>Email:
+                            <input type="text" name="email" /></label> <br />
+                            <label>Wiadomość: <br />
+                            <textarea name="comment" cols="30" rows="5"> </textarea> </label><br />
+
+                            </fieldset>
+                        <input value="Wyślij wiadomość" name="sendform" type="submit"></form>  
+                        
                 </span>  
                 
-                <span class="column column2">
+                <span class="column column2; FontStyleNav"; style="border: 3px solid rgba(0, 0, 0, 0.8)">
                     <nav>
                     <a class="block" href="favoriteObjects.html">Polecany produkt</a>
                     <a class="block" href="favoriteLesson.html">Polecana lekcja</a>
-                    <a class="block" href="FAQ.html">FAQ</a>
                     </nav>
                 </span>
                 

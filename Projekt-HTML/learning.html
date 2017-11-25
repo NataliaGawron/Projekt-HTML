@@ -1,33 +1,39 @@
 ﻿ <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
+ <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Lobster|Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Sealcode Zajęcia HTML</title>
+    <title>Strona poświęcona miłośnikom muzyki i gry na gitarze  &#9829</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body> 
     <header>
-        <h1 id="logo"> &#9829 Nauka gry &#9829 </h1>
-        <nav>
+        <h1 class="FontStyle" id="logo"> &#9829 Nauka gry &#9829 </h1>
+        <nav class="center-text; FontStyle">
             <a class="nav_item" href="index.html">Powrót do strony głównej</a>
         </nav>
     </header>
     <main>
     
         <div id="strona">
-            <div id="container">                  
-                <span class="column column1">   
+            <div class="container">                  
+                <span class="column column1"; style="border: 3px solid rgba(0, 0, 0, 0.8)">   
                     <article>
-                        <iframe src="http://www.chords.pl/kurs" width="1145" height="530"></iframe>
+                        <p class="FontStyle center-text">
+                            <a href="http://www.gitaradlapoczatkujacych.pl" target="kurs">	&#9827 link 1   </a>
+                            <a href="http://www.kursgrynagitarze.pl" target="kurs">	&#9827 link 2  	&#9827 </a>
+                            <a href="http://alegitara.pl" target="kurs"> link 3 &#9827</a>
+                        </p>
+                        <iframe src="http://www.chords.pl/kurs" width="1030" height="530" name="kurs"></iframe>
                     </article>
                 </span>  
                 
-                <span class="column column2">
+                <span class="column column2; FontStyleNav"; style="border: 3px solid rgba(0, 0, 0, 0.8)">
                     <nav>
                     <a class="block" href="favoriteObjects.html">Polecany produkt</a>
                     <a class="block" href="favoriteLesson.html">Polecana lekcja</a>
-                    <a class="block" href="FAQ.html">FAQ</a>
                     </nav>
                 </span>
                 
