@@ -34,19 +34,21 @@ a:hover{
     white-space: pre-wrap;
     border: 3;
     padding: 3;
-    
     font-size: 20px;
-    text-shadow: 2px 2px #410000;
 }
 
 .tableBodyStyle {
     white-space: pre-wrap;
     border: 3;
     padding: 3;
-    
     color: ghostwhite;
     font-size: 18px;
     text-align: left;
+}
+
+.tableFootStyle {
+    font-size: 12px;
+    text-align: center;
 }
 
 .center-text {
@@ -62,14 +64,20 @@ a:hover{
 }
 
 #logo { 
-    font-size: 50px;
-    height: 125px;
+    font-size: 49px;
+    height: 155px;
     background-color: black; 
     color: ghostwhite; 
     margin: 40px;
     padding: 20px; 
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
 } 
+
+.navStyle {
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content:flex-start;   
+}
 
 .nav_item {
     font-size: 30px;
@@ -81,8 +89,7 @@ a:hover{
     
     margin: 40px;
     padding: 20px;
-    justify-content: space-between;
-    flex-shrink: 5;
+    flex-wrap: nowrap;
     
 }
 
@@ -102,7 +109,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 
 .column {
@@ -117,7 +124,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 
 .column1 {
@@ -150,5 +157,6 @@ iframe {
     text-align: center; 
     margin: 40px;
     padding: 10px; 
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
+    flex-direction: row;
  }
