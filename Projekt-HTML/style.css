@@ -151,7 +151,7 @@ iframe {
     border: 0;
 }
 
-#stopka { 
+.stopka { 
     background-color: black; 
     color: ghostwhite;
     text-align: center; 
