@@ -1,0 +1,53 @@
+
+.tableStyle1 {
+    border: 5px solid black;
+}
+table.tableStyle1 td, th{
+    border: 5px solid black;
+}
+
+
+.theadTableStyle1 {
+    color: blue;
+    background-color: yellow;
+}
+
+.theadBodyStyle1 {
+    color: white;
+    background-color: blue;
+}
+
+.theadFootStyle1 {
+    color: blue;
+    background-color: white;
+}
+
+.tableStyle1 > td{
+    border: 5px solid black;
+}
+
+/* style do drugiej tabeli */
+.tableStyle2 {
+    border: 5px dashed black;
+    border-collapse: collapse;
+    
+}
+table.tableStyle2 td, th{
+    border: 5px solid black;
+}
+
+.theadTableStyle2 {
+    color: white;
+    background-color: green;
+}
+
+.theadBodyStyle2 {
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+
+.theadFootStyle2 {
+    color: blue;
+    background-color: lightpink;
+}
