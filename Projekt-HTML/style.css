@@ -30,6 +30,11 @@ a:hover{
     padding: 20px;
 }
 
+div#strona {  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
 .tableHeadStyle {
     white-space: pre-wrap;
     border: 3;
