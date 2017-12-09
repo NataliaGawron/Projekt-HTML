@@ -1,0 +1,158 @@
+*{
+    color: #2A2A2A;
+}
+
+.FontStyle {
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+
+#logo { 
+    text-align: right;
+    font-size: 49px;
+    height: 155px;
+    background-color: darkgrey;
+    color: white; 
+    margin: 20px;
+    padding: 10px; 
+    border-radius: 50px;
+    border: 5px solid rgba(145, 87, 81, 0.7);
+    text-shadow: 3px 1px  black;
+    box-shadow: 4px 4px 12px 4px  rgba(154, 61, 62, 0.5);
+    
+} 
+
+.column {
+    background-color: darkgrey;
+    color: ghostwhite;
+    
+    margin: 5px;
+    padding: 9px;
+    flex-shrink: 5;
+    flex-basis: 55px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px 4px  rgba(154, 61, 62, 0.5);
+}
+
+.column2 {
+    flex-grow: 4;
+    background-color: darkgrey;
+}
+
+.articleClass {
+    text-indent: 20px;
+    white-space: pre-line;
+    text-align: justify;
+    margin: 15px;
+    padding: 10px;   
+}
+
+h1::before {
+    content:  ' \26FE';
+    color: darkred;
+    font-size: 33px;
+    text-shadow: 1px 1px white;
+}
+
+h1::after {
+    
+    color: black;
+    content: ' \272A' ' \272A' ' \272A';
+    font-size: 7px;
+    text-shadow: 1px 1px white;
+}
+
+p::first-line {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 33px;
+}
+
+p::first-letter {
+    font-size: 30px;
+    text-decoration-style: double;
+    text-shadow: 1px 1px  dimgrey;
+}
+
+
+ol {
+    border: 5px groove rgba(188, 0, 88, 0.6);
+    display: block;
+    float: right;
+    margin: 15px;
+    padding: 25px;
+}
+
+li ul
+{
+    border: 2px green solid;
+}
+table {
+    display: table-cell;
+    border: 5px groove rgba(188, 0, 88, 0.6);
+    color: black;
+    float: left;
+    margin: 13px;
+    padding: 7px;
+}
+
+th, td {
+    border: 5px groove rgba(188, 0, 88, 0.6);
+    text-align: center;
+}
+
+tr:nth-child(3n){
+    background-color: orange;
+}
+
+tr:not(:nth-child(3n)){
+    background-color: lightgrey;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+   color: darkslateblue;
+}
+
+a:hover {
+    transform: scale(1.1); 
+    color: yellowgreen;
+}
+
+article {
+    white-space: pre-line;
+    text-align: justify;
+    padding: 5px;
+}
+
+footer { 
+    background-color: darkgrey;
+    color: ghostwhite;
+    text-align: center; 
+    margin: 20px;
+    padding: 5px; 
+    border-radius: 20px;
+    flex-direction: row;
+    border: 3px solid rgba(145, 87, 81, 0.7);
+    box-shadow: 4px 4px 12px 4px  rgba(154, 61, 62, 0.5);
+ }
