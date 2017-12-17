@@ -67,7 +67,6 @@ th,td {
 }
 
 /* Style tabeli kalenadarza*/
-
 .tableCalendar {
     
 }
@@ -85,12 +84,16 @@ th,td {
     text-align: center;
 }
 
-td.tableCalendar {
-    width: 5px;
+table.tableCalendar td,th {
+    width: 50px;
+    height: 50px;
 }
 
-a.tableCalendar {
+.tableCalendar a{
     color: ghostwhite;
+}
+.tableCalendar a:hover{
+    color: darkred;
 }
 
 .tdCalendarHonoured {
@@ -122,7 +125,6 @@ a.tableCalendar {
 } 
 
 .navStyle {
-    /*display: flex;*/
     flex-direction: row;
     justify-content:flex-start; 
     display: flex;
@@ -216,7 +218,6 @@ iframe {
 }
 
 /* style do galerii*/
-
 .bodyStyleGallery {
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +260,6 @@ figcaption {
     box-shadow: 4px 7px 5px #f5f5ed;
     transform: scale(1.1);
 }
-
 /* */
 
 footer { 
