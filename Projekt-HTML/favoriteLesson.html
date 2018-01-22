@@ -5,49 +5,66 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Lobster|Open+Sans+Condensed:300|Pacifico" rel="stylesheet"/>
     <meta charset="utf-8"/>
     <title>Polecana lekcja  &#9829</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="Shortcut icon" href="gitara.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body> 
-    <header>
-        <h1 class="FontStyle" id="logo"> &#9829 Polecana lekcja &#9829 </h1>
-        <nav class="FontStyle navStyle flex-center">
-            <a class="nav_item" href="index.html">Powrót do strony głównej</a>
-            <a class="nav_item" href="instruments.html">Instrumenty</a>
-            <a class="nav_item" href="learning.html">Nauka gry</a>
-            <a class="nav_item" href="contact.html">Kontakt</a>
-            <a class="nav_item" href="calendar.html">Kalendarium</a>
-            <a class="nav_item" href="gallery.html">Galeria zespołów</a>
-        </nav>
+    <header class="bs-docs-nav navbar navbar-static-top  navbar-inverse" id="top">
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand active" href="index.html">Strona Główna</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="instruments.html">Instrumenty</a></li>
+                    <li><a href="learning.html">Nauka gry</a></li>                
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="calendar.html">Kalendarium</a></li>
+                    <li><a href="gallery.html">Galeria zespołów</a></li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="favoriteObjects.html"><span></span> Polecany produkt</a></li>
+                  <li><a href="favoriteLesson.html"><span></span> Polecana lekcja</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
     </header>
     <main>
-    
-        <div id="strona">
-            <div class="container">                  
-                <span class="column column1" style="border: 3px solid rgba(0, 0, 0, 0.8)">   
-                    <article>
-                        <iframe width="1008" height="567" src="https://www.youtube.com/embed/kKPUTiaf2vc" frameborder="0" allowfullscreen></iframe><br />
-                        
-                        <iframe width="1008" height="567" src="https://www.youtube.com/embed/cqHvCDWS1bo" frameborder="0" allowfullscreen></iframe><br />
+            <div class="container">                   
+                <span class="column1" style="border: 3px solid rgba(0, 0, 0, 0.8)">   
+                        <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube.com/embed/kKPUTiaf2vc" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube.com/embed/cqHvCDWS1bo" frameborder="0" allowfullscreen></iframe>
+                        </div>
                 
-                        <iframe width="1008" height="567" src="https://www.youtube.com/embed/455v50Vu5fc" frameborder="0" allowfullscreen></iframe><br />
+                        <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube.com/embed/455v50Vu5fc" frameborder="0" allowfullscreen></iframe>
+                        </div>
                         
-                        <iframe width="1008" height="567" src="https://www.youtube.com/embed/OykpFHTPWhc" frameborder="0" allowfullscreen></iframe><br />
-                    </article>
+                        <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube.com/embed/OykpFHTPWhc" frameborder="0" allowfullscreen></iframe>
+                        </div>
                 </span>  
-                
-                <span class="column column2 FontStyleNav" style="border: 3px solid rgba(0, 0, 0, 0.8)">
-                    <nav>
-                    <a class="block" href="favoriteObjects.html">Polecany produkt</a>
-                    </nav>
-                </span>
-                
-            </div>
         </div>
         
     </main>
-         <footer>  
+       <footer class="container-fluid"> 
             &#169 Natalia Gawron
         </footer>   
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

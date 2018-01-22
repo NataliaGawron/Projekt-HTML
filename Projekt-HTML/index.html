@@ -8,61 +8,89 @@
     
     <title>Strona poświęcona miłośnikom muzyki i gry na gitarze  &#9829</title>
     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="Shortcut icon" href="gitara.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body> 
-    <header>
-        <h1 class="FontStyle" id="logo">&#9829 Music world &#9829</h1>
-        <nav class="FontStyle navStyle flex-center">
-            <a class="nav_item" href="instruments.html">Instrumenty</a>
-            <a class="nav_item" href="learning.html">Nauka gry</a>
-            <a class="nav_item" href="contact.html">Kontakt</a>
-            <a class="nav_item" href="calendar.html">Kalendarium</a>
-            <a class="nav_item" href="gallery.html">Galeria zespołów</a>
-        </nav>
+    <header class="bs-docs-nav navbar navbar-static-top  navbar-inverse" id="top">
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand active" href="index.html">Strona Główna</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="instruments.html">Instrumenty</a></li>
+                    <li><a href="learning.html">Nauka gry</a></li>                
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="calendar.html">Kalendarium</a></li>
+                    <li><a href="gallery.html">Galeria zespołów</a></li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="favoriteObjects.html"><span></span> Polecany produkt</a></li>
+                  <li><a href="favoriteLesson.html"><span></span> Polecana lekcja</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
     </header>
     
     <main>
-            <div id="strona">
             <div class="container">                  
-                <span class="column column1"; style="border: 3px solid rgba(0, 0, 0, 0.8)">   
+                <span class="column1"; style="border: 3px solid rgba(0, 0, 0, 0.8)">   
                     <article class="articleClass">
                         <h2 style="color: red; text-shadow: 2px 2px rgba(75, 6, 6, 1)">Informacje ze świata muzycznego:</h2><span class="column">
                         <p style="text-align: right; font-size: 16px">Data wpisu: 25.11.2017</p>
                         <p>
                             The Pineapple Thief – angielska grupa muzyczna grająca indie rock i rock neoprogresywny. Powstała w 1999 w Yeovil w hrabstwie Somerset w Anglii.
                             
-                            <img class="img-PineappleThief" src="PineappleThief.jpg" width="896" height="504" alt="zdjęcie Pineapple Thief" align="centre"/>    
+                            <img class="img-PineappleThief img-responsive" src="PineappleThief.jpg" alt="zdjęcie Pineapple Thief" align="centre"/>    
                             
                             Nazwa Pineapple Thief pierwotnie firmowała solowe wizje muzyczne Bruce'a Soorda. W 1999 ukazał się debiutancki album Abducting the Unicorn, a w 2001 kolejny – 137. W odpowiedzi na pozytywne reakcje odbiorców Soord postanowił na stałe powiększyć skład i rozszerzyć działalność koncertową. Wiosną 2002 do Pineapple Thief dołączyli Jon Sykes (gitara basowa), Wayne Higgins (gitary), Matt O'Leary (instrumenty klawiszowe) i Keith Harrison (perkusja). O'Leary'ego zastąpił później Steve Kitch, zaś Higgins opuścił zespół. Grupa od początku współpracowała z wytwórnią Cyclops Records, zaś pod koniec 2007 podpisała kontrakt z KScope.</p>
                             
-                            <span style="vertical-align: middle">
-                                <iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/qxYFXw5I45A" frameborder="0" allowfullscreen></iframe>
-                                <br />
-                                <iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/RCOCulnzDaE" frameborder="0" allowfullscreen></iframe>
-                                <br />
-                                <iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/eIy8mppqyuI" frameborder="0" allowfullscreen></iframe>
-                                <br />
-                                <iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/8LTh10MHMOo" frameborder="0" allowfullscreen></iframe>
-                            </span>
+                            <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube-nocookie.com/embed/qxYFXw5I45A" frameborder="0" allowfullscreen></iframe>
+                                
+                            </div>
                             
+                            <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube-nocookie.com/embed/RCOCulnzDaE" frameborder="0" allowfullscreen></iframe>
+                                
+                            </div>
+                        
+                            <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube-nocookie.com/embed/eIy8mppqyuI" frameborder="0" allowfullscreen></iframe>
+                                
+                            </div>
+                            
+                            <div class="embed-responsive embed-responsive-4by3" style="vertical-align: middle">
+                                
+                                <iframe class="embed-responsive-item" width="840" height="473" src="https://www.youtube-nocookie.com/embed/8LTh10MHMOo" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                                
                         </span>
                     </article>
                 </span>  
-                
-                <span class="column column2 FontStyleNav" style="border: 3px solid rgba(0, 0, 0, 0.8)">
-                    <nav>
-                    <a class="block" href="favoriteObjects.html">Polecany produkt</a>
-                    <a class="block" href="favoriteLesson.html">Polecana lekcja</a>
-                    </nav>
-                </span>
-                </div>
-            </div>  
+
+                </div>  
     </main>
     
-         <footer> 
+         <footer class="container-fluid"> 
             &#169 Natalia Gawron
         </footer>   
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
